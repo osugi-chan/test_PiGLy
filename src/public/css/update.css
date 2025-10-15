@@ -1,0 +1,189 @@
+body {
+    position: relative;
+    width: 1512px;
+    height: 1067px;
+}
+
+.update-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 356px;
+    gap: 30px;
+    isolation: isolate;
+    position: absolute;
+    width: 1512px;
+    height: 968px;
+    left: 0px;
+    top: 71px;
+    background: #F9F9F9;
+}
+
+.update-form-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 20px;
+    gap: 30px;
+    width: 800px;
+    height: 828px;
+    background: #FFFFFF;
+}
+
+.update-title {
+    width: 147px;
+    height: 36px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.update-form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 760px;
+    height: 77px;
+    margin-bottom: 20px;
+}
+
+.update-form-group label {
+    width: 100px;
+    height: 24px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.update-form-group input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 10px;
+    gap: 10px;
+    width: 750px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+}
+
+.unit {
+    width: 20px;
+    height: 43px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #333333;
+}
+
+.input-with-unit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.input-with-unit input {
+    flex: 1;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+    box-sizing: border-box;
+    width: 720px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 10px;
+    gap: 10px;
+    width: 750px;
+    height: 160px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 750px;
+    height: 50px;
+    margin-top: 55px;
+}
+
+.back-button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 13px 10px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    background: #E0DFDE;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-left: 70px;
+}
+
+.update-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(90deg, #A3A6E1 0%, #FFABD9 100%);
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+
+.button-group img {
+    width: 21px;
+    height: 24px;
+    margin-left: 180px;
+}
+
+.trash-can-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 41px;
+    height: 44px;
+    top: 3px;
+}
+
+.error-message {
+    display: inline-block;
+    min-height: 18px;
+    color: red;
+    margin-top: 0;
+}

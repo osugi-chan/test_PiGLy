@@ -1,0 +1,96 @@
+html,body {
+    position: relative;
+    width: 1512px;
+    height: 909px;
+    background: #FFFFFF;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    box-sizing: border-box;
+    position: fixed; /* スクロールしても上に固定したい場合 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #CDCDCD;
+    z-index: 1000;
+}
+
+.header__heading {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.1em;
+    color: #EC87EF;
+    margin: 0;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.goal_setting_button {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #FFFFFF ;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+    margin: 0px; /*pタグのデフォルトmarginのリセット*/
+    height: 44px;
+    transition: background 0.2s;
+}
+
+.goal_setting_button:hover {
+    background: #eaeaea;
+}
+
+.goal_setting_button_text {
+    display: flex;
+    align-items: center;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.logout-form {
+    margin: 0;
+}
+
+.logout__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.logout__button:hover {
+    background: #eaeaea;
+}
