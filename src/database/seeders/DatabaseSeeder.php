@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\WeightTarget;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,7 +14,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(WeightLogSeeder::class);
-        $this->call(WeightTargetSeeder::class);
+        $this->call([
+            UserSeeder::class,
+            WeightTargetSeeder::class,
+            WeightLogSeeder::class,
+        ]);
     }
 }

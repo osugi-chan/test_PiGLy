@@ -14,7 +14,7 @@ class WeightTargetSeeder extends Seeder
      */
     public function run()
     {
-        $user_id = 2;
+        $user_id = 1;
 
         WeightTarget::factory()->count(1)->create([
             'user_id' => $user_id,
